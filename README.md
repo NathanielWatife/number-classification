@@ -56,7 +56,7 @@ Steps
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/number-classification-api.git
+git clone https://github.com/NathanielWatife/number-classification
 ```
 cd number-classification-api
 Install dependencies:
@@ -82,14 +82,9 @@ Deploy the project:
 
 Deploy to production:
 
-vercel --prod
-```
-Your API will be live at a URL like https://your-app.vercel.app.
-```
-
 Usage
 ```
-curl "https://your-app.vercel.app/api/classify-number?number=371"
+curl "https://number-classification-hazel.vercel.app/api/classify-number?number=371"
 ```
 
 ```
